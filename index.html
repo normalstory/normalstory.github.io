@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>user research matrix | think normal</title>
+</head>
+<body>
+	<header class="cd-header">
+		<h1>사용자 리서치 방법론 매트릭스</h1>
+	</header>
+
+	<main class="cd-main-content">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder"> 
+						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+					</li> 
+					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+					<li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1">제품 개발/개선</a></li>
+					<li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">정보구조 개선</a></li>
+					<li class="filter" data-filter=".color-3"><a href="#0" data-type="color-3">신규 컨셉 개발</a></li>
+				</ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+
+		<section class="cd-gallery">
+			<ul>
+				<li class="mix color-1 color-3 check1 check2 check3 check8 check13 check14 radio3 option2"><img src="img/img-11.jpg" alt="Image 11"><span class="name">이해관계자 워크숍</span></li>
+				<li class="mix color-3 check1 check6 check7 check9 check11 check12 check13 check14 radio3 option4"><img src="img/img-8.jpg" alt="Image 8"><span class="name">에스노스라피</span></li>
+				<li class="mix color-3 check1 check7 check9 check11 check12 check13 check14 radio3 option3"><img src="img/img-6.jpg" alt="Image 6"><span class="name">다이어리 스터디</span></li>
+				<li class="mix color-1 check1 check2 check3 check4 check6 check7 check9 check11 check12 check13 check14 radio3 option2"><img src="img/img-5.jpg" alt="Image 5"><span class="name">사용자 인터뷰</span></li>
+				<li class="mix color-1 color-3 check1 check2 check3 check6 check7 check9 check11 check12 check13 check14 radio2 option3"><img src="img/img-9.jpg" alt="Image 9"><span class="name">맥락적 조사</span></li>
+				<li class="mix color-1 color-2 color-3 check2 check3 check4 check5 check8 check9 check10 check11 check12 check13 radio2 option3"><img src="img/img-1.jpg" alt="Image 1"><span class="name">사용성 테스트</span></li>
+				<li class="mix color-1 color-3 "><img src="img/img-13.jpg" alt="Image 13"><span class="name">프로토타이핑</span></li>
+				<li class="mix color-2 check2 check3 check4 check5 check8 check10 check13 check15 radio3 option1"><img src="img/img-3.jpg" alt="Image 3"><span class="name">카드 소팅(개방/패쇄형)</span></li>
+				<li class="mix color-2 check4 check5 check8 check10 check15 radio2 option1"><img src="img/img-7.jpg" alt="Image 7"><span class="name">정보구조 검증(트리 테스트)</span></li>
+				<li class="mix color-3 check1 check9 check10 check11 check12 check13 check14 check3 radio3 option1"><img src="img/img-12.jpg" alt="Image 12"><span class="name">게릴라 리서치</span></li>
+				<li class="mix color-2 check2 check3 check4 check5 check8 check10 check11 check12 check13 check15 radio2 option2"><img src="img/img-2.jpg" alt="Image 2"><span class="name">콘텐츠 테스트</span></li>
+				<li class="mix check2 check3 check4 check5 check6 check7 check13 check14 radio2 option4"><img src="img/img-4.jpg" alt="Image 4"><span class="name">설문 조사</span></li>
+				<li class="mix check2 check3 check4 check5 check10 radio2 option4"><img src="img/img-10.jpg" alt="Image 10"><span class="name">A/B 테스트</span></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+			</ul>
+			<div class="cd-fail-message">No results found</div>
+		</section> <!-- cd-gallery -->
+
+		<div class="cd-filter">
+			<form>
+				<div class="cd-filter-block">
+					<h4>Search</h4>
+					
+					<div class="cd-filter-content">
+						<input type="search" placeholder="방법론 직접 찾아보기..">
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Problem Check boxes</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+			    			<label class="checkbox-label" for="checkbox1">생소한 콘셉트임</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">이해관계자들이 동의하지 않음</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">CEO에게 아이디어가 있음</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check4" type="checkbox" id="checkbox4">
+			    			<label class="checkbox-label" for="checkbox4">xxx는 왜 사용자들을 만족시키지 못하는가?</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check5" type="checkbox" id="checkbox5">
+							<label class="checkbox-label" for="checkbox5">전환율은 왜 낮은가?</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check6" type="checkbox" id="checkbox6">
+							<label class="checkbox-label" for="checkbox6">사용자는 누구인가</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check7" type="checkbox" id="checkbox7">
+			    			<label class="checkbox-label" for="checkbox7">사용자를 알아야함</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check8" type="checkbox" id="checkbox8">
+							<label class="checkbox-label" for="checkbox8">분석의 의미는</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check9" type="checkbox" id="checkbox9">
+							<label class="checkbox-label" for="checkbox9">사용자들은 실제로 어떻게 생각하는가</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check10" type="checkbox" id="checkbox10">
+			    			<label class="checkbox-label" for="checkbox10">여러가지 해결책들</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check11" type="checkbox" id="checkbox11">
+							<label class="checkbox-label" for="checkbox11">사용자들은 xxx에 대해 어떻게 생각하는가</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check12" type="checkbox" id="checkbox12">
+							<label class="checkbox-label" for="checkbox12">사용자들은 어떤 경험을 하고 있는가</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".check13" type="checkbox" id="checkbox13">
+			    			<label class="checkbox-label" for="checkbox13">새로 시작해야 함</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check14" type="checkbox" id="checkbox14">
+							<label class="checkbox-label" for="checkbox14">작업 방식을 변경해야 함</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".check15" type="checkbox" id="checkbox15">
+							<label class="checkbox-label" for="checkbox15">조직이 사용자 중심적이지 않음 </label>
+						</li>
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+			</form>
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-filter -->
+
+		<a href="#0" class="cd-filter-trigger">Filters</a>
+	</main> <!-- cd-main-content -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
